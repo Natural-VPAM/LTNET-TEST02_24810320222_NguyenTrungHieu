@@ -47,6 +47,11 @@ TextBox.*
 git clone [https://github.com/nguyenvana/LTNET-
 TEST02_22110001_NguyenVanA.git](https://github.com/nguyenvana/LTNET-
 TEST02_22110001_NguyenVanA.git)
+```
+2. Mở file solution src/WinFormsAppSolution.sln bằng Visual Studio 2022.
+3. Bấm F5 hoặc chọn Start để biên dịch và chạy chương trình.
+TEST02_22110001_NguyenVanA.git](https://github.com/nguyenvana/LTNET-
+TEST02_22110001_NguyenVanA.git)
 
 2. Mở file solution src/WinFormsAppSolution.sln bằng Visual Studio 2022.
 3. Bấm F5 hoặc chọn Start để biên dịch và chạy chương trình.
