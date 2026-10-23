@@ -3,12 +3,11 @@ Markdown
 
 ## I. THÔNG TIN SINH VIÊN
 
-* **Họ và tên:** Nguyễn Văn A
-* **Mã số sinh viên:** 22110001
-* **Lớp học phần:** Lập trình .NET - Mã Lớp: LTTB01
+* **Họ và tên:** Nguyễn Trung Hiếu
+* **Mã số sinh viên:** 24810320222
+* **Lớp học phần:** Lập trình .NET - Mã Lớp: D19QTANM1
 
-* **Link Repository:** https://github.com/nguyenvana/LTNET-
-TEST02_22110001_NguyenVanA
+* **Link Repository:** https://github.com/Natural-VPAM/LTNET-TEST02_24810320222_NguyenTrungHieu
 
 ---
 
@@ -17,8 +16,10 @@ TEST02_22110001_NguyenVanA
 | Bài tập | Tiêu đề bài tập | Trạng thái | Mức độ hoàn thành (%) |
 | :---: | :--- | :---: | :---: |
 | **Bài 1** | Quản lý Dịch vụ Phòng Gym & Hội viên | Hoàn thành | 100% |
-| **Bài 2** | Báo cáo & Lưu trữ Tài liệu Nhà sách | Hoàn thành | 100% |
-| **Bài 3** | Hệ thống MDI Quản lý Bệnh viện & Async | Hoàn thành | 90% |
+| **Bài 2** | Báo cáo & Lưu trữ Tài liệu Nhà sách | Chưa hoàn thành | 50% |
+| **Bài 3** | Hệ thống MDI Quản lý Bệnh viện & Async | Chưa hoàn thành | 0% |
+| **Bài 4** | BẢNG ĐIỀU KHIỂN THỐNG KÊ DOANH THU MULTI-THREADING | Chưa hoàn thành | 0% |
+| **Bài 5** | MÔ PHỎNG GIÁM SÁT TỶ GIÁ TÀI CHÍNH THỜI GIAN THỰC | Chưa hoàn thành | 0% |
 
 ---
 
@@ -36,31 +37,6 @@ TextBox.*
 
 ![Bắt lỗi Validation Bài 1](docs/bai1_error.png)
 *Mô tả: Kiểm tra hợp lệ dữ liệu nhập vào bằng ErrorProvider khi nhấn Thêm mới.*
-
----
-
-### 2. Bài 2: Quản lý & Xuất Báo cáo Nhà sách
-* **Kỹ thuật áp dụng:** `OpenFileDialog` (Tải ảnh bìa), `SaveFileDialog` /
-`OpenFileDialog` (Đọc/Ghi file CSV), Cập nhật `StatusStrip` theo thời gian thực.
-* **Hình ảnh minh họa Giao diện:**
-
-![Giao diện Bài 2 và Load Ảnh](docs/bai2_main.png)
-*Mô tả: Chọn ảnh bìa sách từ đĩa cứng hiển thị lên PictureBox và nạp dữ liệu từ file
-CSV.*
-
----
-
-### 3. Bài 3: Kiến trúc MDI & Xử lý Bất đồng bộ (Async/Await)
-* **Kỹ thuật áp dụng:** MDI Container, Quản lý chống mở trùng Form con,
-`async/await` chống treo UI, Safe Cross-Thread bằng `this.Invoke()`.
-* **Hình ảnh minh họa Giao diện:**
-
-![Giao diện Khung MDI](docs/bai3_mdi.png)
-*Mô tả: Khung Form cha MDI điều khiển mở các Form con xếp tầng.*
-
-![Minh họa Async không treo UI](docs/bai3_async.png)
-*Mô tả: Tiến trình ngầm chạy tải dữ liệu nặng 5 giây, giao diện vẫn kéo rê và thao tác
-bình thường.*
 
 ---
 
